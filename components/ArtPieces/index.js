@@ -9,7 +9,7 @@ export default function ArtPieces({ pieces }) {
             key={piece.slug}
             image={piece.imageSource}
             title={piece.name}
-            artist={piece.name}
+            artist={piece.artist}
           />
         );
       })}
